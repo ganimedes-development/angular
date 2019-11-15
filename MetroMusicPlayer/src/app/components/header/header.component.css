@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: #1b1b1b !important;
+}
+.navbar-brand{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(251, 217, 57);
+    font-size: 2em;
+    line-height: 1;
+    padding: 0;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(251, 217, 57);
+}
+.form-inline{
+    padding-left: 150px;
+}
+.form-control{
+    width: 600px;
+    background: none;
+    border: solid rgb(105, 110, 115);
+    color: white;
+}
+.form-control:focus {
+    box-shadow: inherit;
+}
+.logo-img{
+    width: 25px;
+}
